@@ -15,28 +15,28 @@
             </div>
             <div class="frm__grupo">
                 <label for="first">First name</label>
-                <input type="text" id="first" class="frm__grupo__in">
+                <input type="text" id="first" class="frm__grupo__in" minlength="6" required>
                 
             </div>
             <div class="frm__grupo">
                 <label for="age" >Age</label>
-                <input type="text" id="age" class="frm__grupo__in">
+                <input type="number" id="age" class="frm__grupo__in" max="120" required>
                 
             </div>
             <div class="frm__grupo">
                 <label for="income">Income</label> 
-                <input type="text" id="income" class="frm__grupo__in">
+                <input type="text" id="income" class="frm__grupo__in" minlength="6" required>
                    
             </div>
             <div class="frm__grupo">
                 <label >More info</label>
-                <textarea name="" id="" cols="30" rows="4"></textarea>
+                <textarea name="" id="" cols="30" rows="4" ></textarea>
                 
             </div>
             <div class="frm__grupo">
                 <label for="">Gender</label>
                 <div class="rad">
-                    <input type="radio" id="male" name="sex">
+                    <input type="radio" id="male" name="sex" required>
                     <label for="male">Male</label>
 
                     <input type="radio" id="female" name="sex">
@@ -54,7 +54,7 @@
                 </select>
             </div>
             <div class= "frm__grupo frm__grupo-chk" >
-                <input type="checkbox" id="sub">
+                <input type="checkbox" id="sub" required>
                 <label for="sub">Subscribe to Newsletler</label>
             </div>
             <div class="frm__grupo frm__grupo-btn">
