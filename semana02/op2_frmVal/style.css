@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    border: solid 1px;
+}
+.frm{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245, 245, 245);
+    box-shadow: 5px 5px 16px grey;
+}
+.frm__grupo{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 30px;
+}
+ 
+button{
+    width: 30%;
+    height: 30px;
+    margin: auto;
+    background-color: rgb(51, 122, 183);
+    border: none;
+    border-radius: 3px;
+    color: white;  
+}
+button:hover{
+    background-color: rgb(32, 96, 165);
+}
+
+.frm__grupo-chk{
+    display: flex;
+    flex-direction: row;
+}
+.frm__grupo__in,
+.frm__grupo__sel{
+    height: 2em;
+}
