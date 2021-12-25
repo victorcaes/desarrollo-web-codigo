@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-align: center;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+li{
+    background-color: brown;
+    width: 25%;
+    border: solid 2px red;
+    text-align: center;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    border: solid   2px red;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1em;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 350px;
+    margin: 0 auto 3em auto;
+    height: 550px;
+   
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+    
+}
+
+.card__image{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.card__title{
+    font-weight: 400px;
+    margin-bottom: 15px;
+}
+.card__paragraph{
+    line-height: 1.5;
+    color: #413e3efb;
+}
+
+.boton{
+    display: inline-flex;
+    text-decoration: none;
+    color: inherit;
+    height: 2.5em;
+    align-items: center;
+    background-color: #00999a;
+    justify-content: center;
+    padding: 0 15px;
+    border-radius: 5px;
+    width: 100%;
+    color: white;
+}
+.boton:hover{
+    background-color:#067e7e;
+    box-shadow: 2px 2px 30px #067e7e;
+}
+
+.boton__icono, 
+.boton__texto{
+    height: 1em;
+    margin: 0 10px;
+}
+.card__group{
+    display: flex;
+    justify-content: space-between;
+}
+.card__precio,
+.card__stado{
+    padding: 5px;
+    background-color: #e6e6e6e6;
+    border-radius: 10px;
+}
